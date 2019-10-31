@@ -35,7 +35,7 @@
  <xs:include schemaLocation="urn:oasis:names:tc:dita:xsd:metaDeclGrp.xsd:1.1"/>
  <xs:include schemaLocation="urn:oasis:names:tc:dita:xsd:tblDeclGrp.xsd:1.1"/>
  
- <!-- =================  MODULE INLCUDE DEFINITION  ==================  -->
+ <!-- =================  MODULE INCLUDE DEFINITION  ==================  -->
  <xs:include schemaLocation="urn:oasis:names:tc:dita:xsd:commonElementMod.xsd:1.1"/>
  <!-- ======== Table elements ======== -->
  <xs:include schemaLocation="urn:oasis:names:tc:dita:xsd:tblDeclMod.xsd:1.1"/>    

@@ -26,7 +26,7 @@ AbstractPipelineOutput {
 
 
     /**
-     * Default contructor of PipelineHashIO class.
+     * Default constructor of PipelineHashIO class.
      */
     public PipelineHashIO() {
         super();

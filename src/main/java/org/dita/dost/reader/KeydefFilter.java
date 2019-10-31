@@ -116,7 +116,7 @@ public final class KeydefFilter extends AbstractXMLFilter {
             final String keyRef = atts.getValue(ATTRIBUTE_NAME_KEYREF);
 
             // Many keys can be defined in a single definition, like
-            // keys="a b c", a, b and c are seperated by blank.
+            // keys="a b c", a, b and c are separated by blank.
             for (final String key : attrValue.trim().split("\\s+")) {
                 if (!keysDefMap.containsKey(key)) {
                     if (target != null && !target.toString().isEmpty()) {

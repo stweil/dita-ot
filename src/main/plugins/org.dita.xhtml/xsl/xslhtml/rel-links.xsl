@@ -694,7 +694,7 @@ Each child is indented, the linktext is bold, and the shortdesc appears in norma
     <!-- Skip duplicate test for generated links -->
     <xsl:if test="ancestor::*[contains(@class, ' topic/related-links ')]">
       <xsl:variable name="linkdup" select="key('linkdup', concat(ancestor::*[contains(@class, ' topic/related-links ')]/parent::*[contains(@class, ' topic/topic ')]/@id, ' ', @href))"/>
-      <!-- has duplicate links and this is the first occurrance -->
+      <!-- has duplicate links and this is the first occurrence -->
       <xsl:if test="$linkdup[2] and generate-id(.) = generate-id($linkdup[1])">
         <!-- If the link is exactly the same, do not output message. The duplicate will automatically be removed. -->
         <xsl:if test="not(key('link', related-links:link(.))[2])">

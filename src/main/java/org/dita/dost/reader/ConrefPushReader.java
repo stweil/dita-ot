@@ -284,7 +284,7 @@ public final class ConrefPushReader extends AbstractXMLReader {
                 }
             }
             //id attribute should only be added to the starting element
-            //which dosen't have id attribute set
+            //which doesn't have id attribute set
             if (ATTR_CONACTION_VALUE_PUSHREPLACE.equals(pushType) &&
                     atts.getValue(ATTRIBUTE_NAME_ID) == null &&
                     level == 1) {

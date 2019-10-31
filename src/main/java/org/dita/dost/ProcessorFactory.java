@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * DITA-OT processer factory. Not thread-safe, but can be reused.
+ * DITA-OT processor factory. Not thread-safe, but can be reused.
  */
 public final class ProcessorFactory {
 

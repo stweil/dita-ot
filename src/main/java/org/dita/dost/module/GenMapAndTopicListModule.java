@@ -46,7 +46,7 @@ import static org.dita.dost.util.URLUtils.*;
 
 /**
  * This class extends AbstractPipelineModule, used to generate map and topic
- * list by parsing all the refered dita files.
+ * list by parsing all the referred dita files.
  *
  * @version 1.0 2004-11-25
  *
@@ -949,7 +949,7 @@ public final class GenMapAndTopicListModule extends SourceReaderModule {
 
     /**
      * add FlagImangesSet to Properties, which needn't to change the dir level,
-     * just ouput to the ouput dir.
+     * just output to the output dir.
      *
      * @param prop job configuration
      * @param set absolute flag image files

@@ -20,7 +20,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA Task Requirements Domain//EN"
 <!-- ============================================================= -->
 <!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
 <!--                                                               -->
-<!-- PURPOSE:    Define elements and specialization atttributes    -->
+<!-- PURPOSE:    Define elements and specialization attributes     -->
 <!--             for the Task Requirements Domain                  -->
 <!--                                                               -->
 <!-- ORIGINAL CREATION DATE:                                       -->

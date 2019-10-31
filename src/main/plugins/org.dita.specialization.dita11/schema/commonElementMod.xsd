@@ -949,7 +949,7 @@
   
   <xs:element name="lq">
     <xs:annotation>
-      <xs:documentation> TThe long quote (&lt;<keyword>lq</keyword>&gt;) element indicates
+      <xs:documentation> The long quote (&lt;<keyword>lq</keyword>&gt;) element indicates
         content quoted from another source. Use the quote element &lt;<keyword>q</keyword>&gt;for
         short, inline quotations, and long quote &lt;<keyword>lq</keyword>&gt; for quotations
         that are too long for inline use, following normal guidelines for quoting
@@ -2165,8 +2165,8 @@
         <xs:annotation>
             <xs:documentation>
               The &lt;unknown&gt; element is an open extension that allows information architects to
-                incorporate xml fragments that does not necessarily fit into an exisitng DITA use case.
-              The base processing for &lt;unknown&gt; is to supress unless otherwise instructed.
+                incorporate xml fragments that does not necessarily fit into an existing DITA use case.
+              The base processing for &lt;unknown&gt; is to suppress unless otherwise instructed.
             </xs:documentation>
         </xs:annotation>
       <xs:complexType>

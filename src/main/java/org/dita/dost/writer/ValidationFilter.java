@@ -35,7 +35,7 @@ public final class ValidationFilter extends AbstractXMLFilter {
     private final Set<String> topicIds = new HashSet<>();
     private Map<QName, Map<String, Set<String>>> validateMap = null;
     private Locator locator;
-    /** Deque of domains attibute values */
+    /** Deque of domains attribute values */
     private final Deque<QName[][]> domains = new LinkedList<>();
     private Mode processingMode;
 

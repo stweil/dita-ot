@@ -261,7 +261,7 @@ public class Util {
         toReturn = attachUserInfo(new URL(toReturn), user, pass.toCharArray())
             .toString();
       } catch (MalformedURLException e) {
-        // Shoudn't happen.
+        // Shouldn't happen.
       }
     }
     return toReturn;

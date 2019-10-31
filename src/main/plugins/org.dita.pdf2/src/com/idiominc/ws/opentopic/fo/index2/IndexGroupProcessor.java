@@ -80,7 +80,7 @@ public final class IndexGroupProcessor {
         }
         final MyIndexGroup[] IndexGroups = (MyIndexGroup[]) result.toArray(new MyIndexGroup[result.size()]);
 
-        //Adding dependecies to group array
+        //Adding dependencies to group array
         for (int i = 0; i < IndexGroups.length; i++) {
             final MyIndexGroup thisGroup = IndexGroups[i];
             final String[] thisGroupMembers = thisGroup.getConfigEntry().getGroupMembers();
@@ -261,7 +261,7 @@ public final class IndexGroupProcessor {
                     final IndexEntry seeAlsoChildIndexEntry = seeAlsoChildIndexEntries[j];
                     existingEntry.addSeeAlsoChild(seeAlsoChildIndexEntry);
                 }
-                //supress some attributes of given entry to the existing one
+                //suppress some attributes of given entry to the existing one
                 if (indexEntry.isRestoresPageNumber()) {
                     existingEntry.setRestoresPageNumber(true);
                 }

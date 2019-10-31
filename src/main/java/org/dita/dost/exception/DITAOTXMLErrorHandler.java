@@ -22,7 +22,7 @@ import org.xml.sax.SAXParseException;
 public final class DITAOTXMLErrorHandler implements ErrorHandler {
 
     /**
-     * The xml file where the error occured.
+     * The xml file where the error occurred.
      */
     private final String filePath;
     private final DITAOTLogger logger;

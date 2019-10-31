@@ -34,7 +34,7 @@ public final class DITAOTFailTask extends Exit {
     private final ArrayList<ParamElem> params = new ArrayList<>();
 
     /**
-     * Default Construtor.
+     * Default Constructor.
      *
      */
     public DITAOTFailTask() {

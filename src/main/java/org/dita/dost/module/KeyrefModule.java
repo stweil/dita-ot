@@ -379,7 +379,7 @@ final class KeyrefModule extends AbstractPipelineModuleImpl {
     /**
      * Add key definition to job configuration
      *
-     * @param keydefs key defintions to add
+     * @param keydefs key definitions to add
      */
     private void writeKeyDefinition(final Map<String, KeyDef> keydefs) {
         try {

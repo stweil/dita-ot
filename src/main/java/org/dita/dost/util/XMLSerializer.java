@@ -175,7 +175,7 @@ public class XMLSerializer {
     }
 
     /**
-     * Write namepace prefix.
+     * Write namespace prefix.
      *
      * @param prefix namespace prefix
      * @param uri namespace URI

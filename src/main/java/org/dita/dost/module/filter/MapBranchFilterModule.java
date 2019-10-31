@@ -46,7 +46,7 @@ import static org.dita.dost.util.XMLUtils.getChildElements;
  * <p>Branch filtering is done with the following steps:</p>
  * <ol>
  *   <li>Split braches so that each branch will only contain a single ditavalref</li>
- *   <li>Generate copy-to attribute for each brach generated topicref</li>
+ *   <li>Generate copy-to attribute for each branch generated topicref</li>
  *   <li>Filter map based on branch filters</li>
  *   <li>Rewrite duplicate generated copy-to targets</li>
  * </ol>

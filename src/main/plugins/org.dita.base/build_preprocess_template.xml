@@ -503,7 +503,7 @@ See the accompanying LICENSE file for applicable license.
     </condition>
   </target>
 
-  <!-- Clean tempory files at the end of preprocess -->
+  <!-- Clean temporary files at the end of preprocess -->
   <target name="clean-preprocess"
           unless="preprocess.clean-preprocess.skip"
           description="Clean preprocess">

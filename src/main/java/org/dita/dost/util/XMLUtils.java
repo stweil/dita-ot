@@ -648,7 +648,7 @@ public final class XMLUtils {
      *
      * @param chars char arrays
      * @param offset start position
-     * @param length arrays lenth
+     * @param length arrays length
      * @return escaped value
      */
     public static String escapeXML(final char[] chars, final int offset, final int length) {

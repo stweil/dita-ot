@@ -44,7 +44,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA Map//EN"
 <!--    2006.06.07 RDA: Make universal attributes universal        -->
 <!--                      (DITA 1.1 proposal #12)                  -->
 <!--    2006.06.14 RDA: Add dir attribute to localization-atts     -->
-<!--    2006.06.14 RDA: Add outputclass attribute to most elemetns -->
+<!--    2006.06.14 RDA: Add outputclass attribute to most elements -->
 <!--    2006.11.30 RDA: Add -dita-use-conref-target to enumerated  -->
 <!--                      attributes                               -->
 <!--    2006.11.30 RDA: Remove #FIXED from DITAArchVersion         -->

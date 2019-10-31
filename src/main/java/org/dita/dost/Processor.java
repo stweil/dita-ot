@@ -21,7 +21,7 @@ import java.util.Map;
 import java.util.Vector;
 
 /**
- * DITA-OT processer. Not thread-safe, but can be reused.
+ * DITA-OT processor. Not thread-safe, but can be reused.
  */
 public final class Processor {
 

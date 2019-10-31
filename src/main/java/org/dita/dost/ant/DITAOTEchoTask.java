@@ -32,7 +32,7 @@ public final class DITAOTEchoTask extends Echo {
     private DITAOTLogger logger;
 
     /**
-     * Default Construtor.
+     * Default Constructor.
      *
      */
     public DITAOTEchoTask() {

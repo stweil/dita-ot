@@ -38,7 +38,7 @@ See the accompanying LICENSE file for applicable license.
     <response/>
   </message>
   <!-- DOTA067W and DOTA068W actually come from Java code inside the PDF plug-in.
-       DOTA prefix is innacurate. No reason to change at this point. -->
+       DATA prefix is inaccurate. No reason to change at this point. -->
   <message id="DOTA067W" type="WARN">
     <reason>Ignoring index-see '%1' inside parent index entry '%2' because the parent indexterm contains indexterm children.</reason>
     <response></response>

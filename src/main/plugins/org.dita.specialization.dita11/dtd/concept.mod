@@ -19,7 +19,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA Concept//EN"
 <!-- ============================================================= -->
 <!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
 <!--                                                               -->
-<!-- PURPOSE:    Define elements and specialization atttributes    -->
+<!-- PURPOSE:    Define elements and specialization attributes     -->
 <!--             for Concepts                                      -->
 <!--                                                               -->
 <!-- ORIGINAL CREATION DATE:                                       -->

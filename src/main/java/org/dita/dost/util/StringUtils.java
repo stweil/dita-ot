@@ -137,7 +137,7 @@ public final class StringUtils {
 
     /**
      * Break down a string separated by <code>delim</code> into a string set.
-     * @param s String to be splitted
+     * @param s String to be split
      * @param delim Delimiter to be used.
      * @return string set
      */

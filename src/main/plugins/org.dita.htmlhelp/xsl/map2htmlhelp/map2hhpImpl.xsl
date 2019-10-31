@@ -180,7 +180,7 @@ Default topic=</xsl:text>
      ********************************************************************************* -->
 <xsl:template name="output-filenames">
   <!-- Place all of the file names in a temp file. Then process the temp file,
-       removing dupliates. -->
+       removing duplicates. -->
   <xsl:variable name="temp">
     <filelist>
       <xsl:apply-templates/>

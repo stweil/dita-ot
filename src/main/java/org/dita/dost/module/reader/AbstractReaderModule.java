@@ -811,7 +811,7 @@ public abstract class AbstractReaderModule extends AbstractPipelineModuleImpl {
 
     /**
      * add FlagImangesSet to Properties, which needn't to change the dir level,
-     * just ouput to the ouput dir.
+     * just output to the output dir.
      *
      * @param prop job configuration
      * @param set absolute flag image files

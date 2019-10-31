@@ -43,7 +43,7 @@ See the accompanying LICENSE file for applicable license.
           Workaround for FOP issue: https://issues.apache.org/jira/browse/FOP-2016
   Use fo:block instead of fo:wrapper when:
   * In a section or example
-  * No preceeding elements in the section other than title, other index terms, or DITAVAL flags
+  * No preceding elements in the section other than title, other index terms, or DITAVAL flags
   * No preceding text nodes with text -->
   <xsl:function name="opentopic-index:use-block-in-section" as="xs:boolean">
     <xsl:param name="ctx" as="element()"/>

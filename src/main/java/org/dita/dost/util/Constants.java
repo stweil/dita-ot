@@ -832,7 +832,7 @@ public final class Constants {
 
     /** Constant for generated property file name(catalog-dita.xml).*/
     public static final String FILE_NAME_CATALOG = "catalog-dita.xml";
-    //store the scheme files refered by a scheme file in the form of Map<String Set<String>>
+    //store the scheme files referred by a scheme file in the form of Map<String Set<String>>
     /** Constant for generated property file name(subrelation.xml).*/
     public static final String FILE_NAME_SUBJECT_RELATION = "subrelation.xml";
     /** Constant for generated DITAVAL file name(ditaot.generated.ditaval).*/

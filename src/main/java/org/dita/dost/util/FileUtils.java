@@ -326,7 +326,7 @@ public final class FileUtils {
 
     /**
      * Resolve file path against a base directory path. Normalize the input file path, by replacing all the '\\', '/' with
-     * File.seperator, and removing '..' from the directory.
+     * File.separator, and removing '..' from the directory.
      *
      * <p>Note: the substring behind "#" will be removed.</p>
      *

@@ -53,9 +53,9 @@ public final class GenListModuleReader extends AbstractXMLFilter {
     private boolean hasCodeRef = false;
     /** Set of all targets referred in current parsing file except conref and copy-to */
     private final Set<Reference> nonConrefCopytoTargets = new LinkedHashSet<>(64);
-    /** Set of conref targets refered in current parsing file */
+    /** Set of conref targets referred in current parsing file */
     private final Set<URI> conrefTargets = new HashSet<>(32);
-    /** Set of href nonConrefCopytoTargets refered in current parsing file */
+    /** Set of href nonConrefCopytoTargets referred in current parsing file */
     private final Set<URI> hrefTargets = new HashSet<>(32);
     /** Set of subject schema files */
     private final Set<URI> schemeSet = new HashSet<>(32);
@@ -63,7 +63,7 @@ public final class GenListModuleReader extends AbstractXMLFilter {
     private final Set<URI> coderefTargetSet = new HashSet<>(16);
     /** Set of sources of those copy-to that were ignored */
     private final Set<URI> ignoredCopytoSourceSet = new HashSet<>(16);
-    /** Map of copy-to target to souce */
+    /** Map of copy-to target to source */
     private final Map<URI, URI> copytoMap = new HashMap<>(16);
     /** Flag for conrefpush */
     private boolean hasconaction = false;
@@ -264,7 +264,7 @@ public final class GenListModuleReader extends AbstractXMLFilter {
     /**
      * Get copy-to map.
      *
-     * @return map of copy-to target to souce
+     * @return map of copy-to target to source
      */
     public Map<URI, URI> getCopytoMap() {
         return copytoMap;

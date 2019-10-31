@@ -31,7 +31,7 @@ public final class ExportAnchorsFilter extends AbstractXMLFilter {
     private boolean hasExport = false;
     private final List<ExportAnchor> exportAnchors = new ArrayList<>();
     private ExportAnchor currentExportAnchor;
-    /** Refered topic id */
+    /** Referred topic id */
     private String topicId;
     /** Absolute path to root file */
     private URI rootFilePath = null;

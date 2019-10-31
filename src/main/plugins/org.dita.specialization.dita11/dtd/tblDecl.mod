@@ -193,7 +193,7 @@ current application.
 
 Note, however, that changes may have significant effect on the ability to
 interchange table information.  These changes may manifest themselves
-in useability, presentation, and possible structure information degradation.
+in usability, presentation, and possible structure information degradation.
 -->
 
 <!ENTITY % tbl.table.name       "table">

@@ -61,7 +61,7 @@ import static org.dita.dost.util.URLUtils.toFile;
 import static org.dita.dost.util.XMLUtils.toList;
 
 /**
- * Integrator is the main class to control and excute the integration of the
+ * Integrator is the main class to control and execute the integration of the
  * toolkit and different plug-ins.
  *
  * @author Zhang, Yuan Peng
@@ -742,7 +742,7 @@ public final class Integrator {
     private boolean checkPlugin(final String currentPlugin) {
         final Features pluginFeatures = pluginTable.get(currentPlugin);
         final Iterator<PluginRequirement> iter = pluginFeatures.getRequireListIter();
-        // check whether dependcy is satisfied
+        // check whether dependency is satisfied
         while (iter.hasNext()) {
             boolean anyPluginFound = false;
             final PluginRequirement requirement = iter.next();

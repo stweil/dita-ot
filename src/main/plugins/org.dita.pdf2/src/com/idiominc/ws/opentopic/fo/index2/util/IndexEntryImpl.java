@@ -145,7 +145,7 @@ class IndexEntryImpl implements IndexEntry {
         for (final IndexEntry childIndexEntry : childIndexEntries) {
             existingEntry.addChild(childIndexEntry);
         }
-        //supress some attributes of given entry to the existing one
+        //suppress some attributes of given entry to the existing one
         if (theEntry.isRestoresPageNumber()) {
             existingEntry.setRestoresPageNumber(true);
         }
@@ -174,7 +174,7 @@ class IndexEntryImpl implements IndexEntry {
         for (final IndexEntry childIndexEntry : childIndexEntries) {
             existingEntry.addChild(childIndexEntry);
         }
-        //supress some attributes of given entry to the existing one
+        //suppress some attributes of given entry to the existing one
         if (theEntry.isRestoresPageNumber()) {
             existingEntry.setRestoresPageNumber(true);
         }
@@ -203,7 +203,7 @@ class IndexEntryImpl implements IndexEntry {
         for (final IndexEntry childIndexEntry : childIndexEntries) {
             existingEntry.addChild(childIndexEntry);
         }
-        //supress some attributes of given entry to the existing one
+        //suppress some attributes of given entry to the existing one
         if (theEntry.isRestoresPageNumber()) {
             existingEntry.setRestoresPageNumber(true);
         }
